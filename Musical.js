@@ -97,7 +97,7 @@
                // $("#ajaxdiv").load("musiclist.txt",function(){ alert("done")});
                 $.ajax({
                    // url:"musiclist.txt",
-                    url:'http://localhost:8888',
+                    url:'http://192.168.0.3:8888',
                     type:"POST",
                     data: '{"data": "'+prefix+'"}',
                    // data: "firstname=asdfas&name=asdfasd,
